@@ -1,1 +1,6 @@
-#include "UDPSocket.h"
+#include "Header.h"
+
+UDPSocket::~UDPSocket()
+{
+	closesocket(mSocket);
+}

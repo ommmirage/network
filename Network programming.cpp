@@ -12,7 +12,7 @@ int main()
     // помощью WSAStartup() информацией об активированной
     // библиотеке.
     WSADATA wsaData;
-    // Активирует библиотеку соектов Winsock2.h
+    // Активирует библиотеку сокетов Winsock2.h
     int result = WSAStartup(wVersionRequested, &wsaData);
     if (result != NO_ERROR)
     {

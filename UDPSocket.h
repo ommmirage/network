@@ -1,5 +1,3 @@
-#include "Header.h"
-
 class UDPSocket
 {
 public:
@@ -9,8 +7,3 @@ private:
 
 	SOCKET mSocket;
 };
-
-UDPSocket::~UDPSocket()
-{
-	closesocket(mSocket);
-}
